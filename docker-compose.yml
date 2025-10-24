@@ -22,7 +22,7 @@ services:
     networks:
       - springboot-mysql-net
   frontend:
-    image: bhargavi079/fronted3:latest
+    image: bhargavi079/frontend3:latest
     container_name: react
     ports:
       - "3008:80"
